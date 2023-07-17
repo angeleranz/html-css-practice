@@ -1,0 +1,174 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #372d1f
+}
+
+ul{
+    list-style-type: none;    
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;   
+}
+
+h1{
+    color: white;
+    font-weight: extra-bold;
+}
+
+.header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0;
+}
+
+.hero{
+    background-color: #1F2937;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+button{
+    
+}
+
+
+.text{
+    justify-self: center;
+    
+    
+}
+.claq{
+    align-self: flex-end;
+    margin: 30px;
+    justify-content: flex-end;
+}
+
+
+
+
+.herop{
+    color: white;
+    
+    align-items: flex-end;
+}
+
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.right-links{
+    display: flex;
+    gap: 16px;
+    margin-right: 16px;
+    justify-content: flex-end;
+}
+figure{
+    justify-self: center;
+
+}
+
+figcaption{
+    
+}
+
+
+.avclubfeatures{
+    display: column;
+    align-self: center;
+    justify-content: center;
+    font-size: 25px;
+    
+    
+}
+
+.images{
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+h2{
+    font-weight: bolder;
+    justify-self: center;
+    
+}
+
+
+.random-info{
+    outline: auto;      
+}
+
+.quote-div{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+
+.author{
+    align-self: flex-end;
+    margin-right: 100px;
+    font-style: italic;
+    
+}
+
+.quote{
+    margin-left: 100px;
+    font-style: italic;
+}
+
+.cta{
+   display: flex;
+   margin: 100px;
+   flex-direction: column;
+   align-items: center;
+   background-color: #3882F6;
+   border-radius: 8px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+   padding: 16px;
+   
+}
+
+.cta-below, .cta-headline{
+    color: white
+}
+
+.button{
+    background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: white;
+}
+.button-cta{
+    background-color: #3882F6;
+    padding: 8px 36px;
+    border-radius: 8px;
+    color: white;
+    border-color: white;
+}
+.footer{
+   display: flex;
+   justify-content: center;
+   background-color: #E5E7EB;
+}
